@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8f9d0bb4-968d-46cc-a84c-c0dbf9cc0750}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="EasyBMP">
+      <UniqueIdentifier>{bdd866d8-7f20-45fc-b787-4e7f690a9677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{524f99d0-15c7-4ab8-9721-e62a4a566355}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Kernel Files">
+      <UniqueIdentifier>{f2497cd7-d295-4398-bd7a-9a36237a6bf9}</UniqueIdentifier>
+      <Extensions>cu</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EasyBMP.cpp">
+      <Filter>EasyBMP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbbst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyBMP.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_BMP.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_DataStructures.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_VariousBMPutilities.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="rbbst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>Kernel Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="thrustOperations.cu">
+      <Filter>Kernel Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
